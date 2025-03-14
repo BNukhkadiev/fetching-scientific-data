@@ -1,0 +1,37 @@
+[
+    {
+        "id": "https://openalex.org/W3012753431",
+        "doi": "https://doi.org/10.1145/3366423.3380250",
+        "title": "Modeling and Aggregation of Complex Annotations via Annotation Distances",
+        "cited_by_count": 14,
+        "abstract": "Modeling annotators and their labels is valuable for ensuring collected data quality. Though many models have been proposed for binary or categorical labels, prior methods do not generalize to complex annotations (e.g., open-ended text, multivariate, or structured responses) without devising new models for each specific task. To obviate the need for task-specific modeling, we propose to model distances between labels, rather than the labels themselves. Our models are largely agnostic to the distance function; we leave it to the requesters to specify an appropriate distance function for their given annotation task. We propose three models of annotation quality, including a Bayesian hierarchical extension of multidimensional scaling which can be trained in an unsupervised or semi-supervised manner. Results show the generality and effectiveness of our models across diverse complex annotation tasks: sequence labeling, translation, syntactic parsing, and ranking."
+    },
+    {
+        "id": "https://openalex.org/W3099878876",
+        "doi": "https://doi.org/10.1038/s41586-020-2649-2",
+        "title": "Array programming with NumPy",
+        "cited_by_count": 16549,
+        "abstract": "Abstract Array programming provides a powerful, compact and expressive syntax for accessing, manipulating and operating on data in vectors, matrices and higher-dimensional arrays. NumPy is the primary array programming library for the Python language. It has an essential role in research analysis pipelines in fields as diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials science, engineering, finance and economics. For example, in astronomy, NumPy was an important part of the software stack used in the discovery of gravitational waves 1 and in the first imaging of a black hole 2 . Here we review how a few fundamental array concepts lead to a simple and powerful programming paradigm for organizing, exploring and analysing scientific data. NumPy is the foundation upon which the scientific Python ecosystem is constructed. It is so pervasive that several projects, targeting audiences with specialized needs, have developed their own NumPy-like interfaces and array objects. Owing to its central position in the ecosystem, NumPy increasingly acts as an interoperability layer between such array computation libraries and, together with its application programming interface (API), provides a flexible framework to support the next decade of scientific and industrial analysis."
+    },
+    {
+        "id": "https://openalex.org/W4377865099",
+        "doi": "https://doi.org/10.48550/arxiv.2305.13059",
+        "title": "Friendly Neighbors: Contextualized Sequence-to-Sequence Link Prediction",
+        "cited_by_count": 0,
+        "abstract": "We propose KGT5-context, a simple sequence-to-sequence model for link prediction (LP) in knowledge graphs (KG). Our work expands on KGT5, a recent LP model that exploits textual features of the KG, has small model size, and is scalable. To reach good predictive performance, however, KGT5 relies on an ensemble with a knowledge graph embedding model, which itself is excessively large and costly to use. In this short paper, we show empirically that adding contextual information - i.e., information about the direct neighborhood of the query entity - alleviates the need for a separate KGE model to obtain good performance. The resulting KGT5-context model is simple, reduces model size significantly, and obtains state-of-the-art performance in our experimental study."
+    },
+    {
+        "id": "https://openalex.org/W4327652460",
+        "doi": "https://doi.org/10.1007/978-3-031-26390-3_9",
+        "title": "Start Small, Think Big: On Hyperparameter Optimization for Large-Scale Knowledge Graph Embeddings",
+        "cited_by_count": 4,
+        "abstract": null
+    },
+    {
+        "id": "https://openalex.org/W3198767952",
+        "doi": "https://doi.org/10.14778/3476311.3476325",
+        "title": "Just move it!",
+        "cited_by_count": 2,
+        "abstract": "Parameter servers (PSs) ease the implementation of distributed machine learning systems, but their performance can fall behind that of single machine baselines due to communication overhead. We demonstrate Lapse, an open source PS with dynamic parameter allocation . Previous work has shown that dynamic parameter allocation can improve PS performance by up to two orders of magnitude and lead to near-linear speed-ups over single machine baselines. This demonstration illustrates how Lapse is used and why it can provide order-of-magnitude speed-ups over other PSs. To do so, this demonstration interactively analyzes and visualizes how dynamic parameter allocation looks like in action."
+    }
+]

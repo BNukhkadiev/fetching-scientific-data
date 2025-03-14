@@ -1,0 +1,822 @@
+[
+    {
+        "id": "https://openalex.org/W3099878876",
+        "doi": "https://doi.org/10.1038/s41586-020-2649-2",
+        "title": "Array programming with NumPy",
+        "cited_by_count": 16549,
+        "abstract_inverted_index": {
+            "Abstract": [
+                0
+            ],
+            "Array": [
+                1
+            ],
+            "programming": [
+                2,
+                28,
+                107,
+                174
+            ],
+            "provides": [
+                3,
+                177
+            ],
+            "a": [
+                4,
+                87,
+                96,
+                103,
+                178
+            ],
+            "powerful,": [
+                5
+            ],
+            "compact": [
+                6
+            ],
+            "and": [
+                7,
+                13,
+                20,
+                58,
+                81,
+                105,
+                112,
+                146,
+                188
+            ],
+            "expressive": [
+                8
+            ],
+            "syntax": [
+                9
+            ],
+            "for": [
+                10,
+                30,
+                109
+            ],
+            "accessing,": [
+                11
+            ],
+            "manipulating": [
+                12
+            ],
+            "operating": [
+                14
+            ],
+            "on": [
+                15
+            ],
+            "data": [
+                16
+            ],
+            "in": [
+                17,
+                39,
+                43,
+                62,
+                74,
+                82,
+                154
+            ],
+            "vectors,": [
+                18
+            ],
+            "matrices": [
+                19
+            ],
+            "higher-dimensional": [
+                21
+            ],
+            "arrays.": [
+                22
+            ],
+            "NumPy": [
+                23,
+                64,
+                116,
+                157
+            ],
+            "is": [
+                24,
+                117,
+                126,
+                129
+            ],
+            "the": [
+                25,
+                31,
+                70,
+                75,
+                83,
+                118,
+                122,
+                155,
+                183
+            ],
+            "primary": [
+                26
+            ],
+            "array": [
+                27,
+                99,
+                147,
+                166
+            ],
+            "library": [
+                29
+            ],
+            "Python": [
+                32,
+                124
+            ],
+            "language.": [
+                33
+            ],
+            "It": [
+                34,
+                128
+            ],
+            "has": [
+                35
+            ],
+            "an": [
+                36,
+                66,
+                161
+            ],
+            "essential": [
+                37
+            ],
+            "role": [
+                38
+            ],
+            "research": [
+                40
+            ],
+            "analysis": [
+                41
+            ],
+            "pipelines": [
+                42
+            ],
+            "fields": [
+                44
+            ],
+            "as": [
+                45,
+                47,
+                160
+            ],
+            "diverse": [
+                46
+            ],
+            "physics,": [
+                48
+            ],
+            "chemistry,": [
+                49
+            ],
+            "astronomy,": [
+                50,
+                63
+            ],
+            "geoscience,": [
+                51
+            ],
+            "biology,": [
+                52
+            ],
+            "psychology,": [
+                53
+            ],
+            "materials": [
+                54
+            ],
+            "science,": [
+                55
+            ],
+            "engineering,": [
+                56
+            ],
+            "finance": [
+                57
+            ],
+            "economics.": [
+                59
+            ],
+            "For": [
+                60
+            ],
+            "example,": [
+                61
+            ],
+            "was": [
+                65
+            ],
+            "important": [
+                67
+            ],
+            "part": [
+                68
+            ],
+            "of": [
+                69,
+                77,
+                86,
+                186
+            ],
+            "software": [
+                71
+            ],
+            "stack": [
+                72
+            ],
+            "used": [
+                73
+            ],
+            "discovery": [
+                76
+            ],
+            "gravitational": [
+                78
+            ],
+            "waves": [
+                79
+            ],
+            "1": [
+                80
+            ],
+            "first": [
+                84
+            ],
+            "imaging": [
+                85
+            ],
+            "black": [
+                88
+            ],
+            "hole": [
+                89
+            ],
+            "2": [
+                90
+            ],
+            ".": [
+                91
+            ],
+            "Here": [
+                92
+            ],
+            "we": [
+                93
+            ],
+            "review": [
+                94
+            ],
+            "how": [
+                95
+            ],
+            "few": [
+                97
+            ],
+            "fundamental": [
+                98
+            ],
+            "concepts": [
+                100
+            ],
+            "lead": [
+                101
+            ],
+            "to": [
+                102,
+                150,
+                181
+            ],
+            "simple": [
+                104
+            ],
+            "powerful": [
+                106
+            ],
+            "paradigm": [
+                108
+            ],
+            "organizing,": [
+                110
+            ],
+            "exploring": [
+                111
+            ],
+            "analysing": [
+                113
+            ],
+            "scientific": [
+                114,
+                123,
+                187
+            ],
+            "data.": [
+                115
+            ],
+            "foundation": [
+                119
+            ],
+            "upon": [
+                120
+            ],
+            "which": [
+                121
+            ],
+            "ecosystem": [
+                125
+            ],
+            "constructed.": [
+                127
+            ],
+            "so": [
+                130
+            ],
+            "pervasive": [
+                131
+            ],
+            "that": [
+                132
+            ],
+            "several": [
+                133
+            ],
+            "projects,": [
+                134
+            ],
+            "targeting": [
+                135
+            ],
+            "audiences": [
+                136
+            ],
+            "with": [
+                137,
+                171
+            ],
+            "specialized": [
+                138
+            ],
+            "needs,": [
+                139
+            ],
+            "have": [
+                140
+            ],
+            "developed": [
+                141
+            ],
+            "their": [
+                142
+            ],
+            "own": [
+                143
+            ],
+            "NumPy-like": [
+                144
+            ],
+            "interfaces": [
+                145
+            ],
+            "objects.": [
+                148
+            ],
+            "Owing": [
+                149
+            ],
+            "its": [
+                151,
+                172
+            ],
+            "central": [
+                152
+            ],
+            "position": [
+                153
+            ],
+            "ecosystem,": [
+                156
+            ],
+            "increasingly": [
+                158
+            ],
+            "acts": [
+                159
+            ],
+            "interoperability": [
+                162
+            ],
+            "layer": [
+                163
+            ],
+            "between": [
+                164
+            ],
+            "such": [
+                165
+            ],
+            "computation": [
+                167
+            ],
+            "libraries": [
+                168
+            ],
+            "and,": [
+                169
+            ],
+            "together": [
+                170
+            ],
+            "application": [
+                173
+            ],
+            "interface": [
+                175
+            ],
+            "(API),": [
+                176
+            ],
+            "flexible": [
+                179
+            ],
+            "framework": [
+                180
+            ],
+            "support": [
+                182
+            ],
+            "next": [
+                184
+            ],
+            "decade": [
+                185
+            ],
+            "industrial": [
+                189
+            ],
+            "analysis.": [
+                190
+            ]
+        }
+    },
+    {
+        "id": "https://openalex.org/W3012753431",
+        "doi": "https://doi.org/10.1145/3366423.3380250",
+        "title": "Modeling and Aggregation of Complex Annotations via Annotation Distances",
+        "cited_by_count": 14,
+        "abstract_inverted_index": {
+            "Modeling": [
+                0
+            ],
+            "annotators": [
+                1
+            ],
+            "and": [
+                2,
+                120,
+                135
+            ],
+            "their": [
+                3,
+                87
+            ],
+            "labels": [
+                4,
+                63
+            ],
+            "is": [
+                5
+            ],
+            "valuable": [
+                6
+            ],
+            "for": [
+                7,
+                18,
+                42,
+                50,
+                86
+            ],
+            "ensuring": [
+                8
+            ],
+            "collected": [
+                9
+            ],
+            "data": [
+                10
+            ],
+            "quality.": [
+                11
+            ],
+            "Though": [
+                12
+            ],
+            "many": [
+                13
+            ],
+            "models": [
+                14,
+                41,
+                66,
+                94,
+                124
+            ],
+            "have": [
+                15
+            ],
+            "been": [
+                16
+            ],
+            "proposed": [
+                17
+            ],
+            "binary": [
+                19
+            ],
+            "or": [
+                20,
+                35,
+                113
+            ],
+            "categorical": [
+                21
+            ],
+            "labels,": [
+                22,
+                59
+            ],
+            "prior": [
+                23
+            ],
+            "methods": [
+                24
+            ],
+            "do": [
+                25
+            ],
+            "not": [
+                26
+            ],
+            "generalize": [
+                27
+            ],
+            "to": [
+                28,
+                55,
+                70,
+                77,
+                80
+            ],
+            "complex": [
+                29,
+                127
+            ],
+            "annotations": [
+                30
+            ],
+            "(e.g.,": [
+                31
+            ],
+            "open-ended": [
+                32
+            ],
+            "text,": [
+                33
+            ],
+            "multivariate,": [
+                34
+            ],
+            "structured": [
+                36
+            ],
+            "responses)": [
+                37
+            ],
+            "without": [
+                38
+            ],
+            "devising": [
+                39
+            ],
+            "new": [
+                40
+            ],
+            "each": [
+                43
+            ],
+            "specific": [
+                44
+            ],
+            "task.": [
+                45,
+                90
+            ],
+            "To": [
+                46
+            ],
+            "obviate": [
+                47
+            ],
+            "the": [
+                48,
+                62,
+                71,
+                78,
+                118
+            ],
+            "need": [
+                49
+            ],
+            "task-specific": [
+                51
+            ],
+            "modeling,": [
+                52
+            ],
+            "we": [
+                53,
+                74
+            ],
+            "propose": [
+                54,
+                92
+            ],
+            "model": [
+                56
+            ],
+            "distances": [
+                57
+            ],
+            "between": [
+                58
+            ],
+            "rather": [
+                60
+            ],
+            "than": [
+                61
+            ],
+            "themselves.": [
+                64
+            ],
+            "Our": [
+                65
+            ],
+            "are": [
+                67
+            ],
+            "largely": [
+                68
+            ],
+            "agnostic": [
+                69
+            ],
+            "distance": [
+                72,
+                84
+            ],
+            "function;": [
+                73
+            ],
+            "leave": [
+                75
+            ],
+            "it": [
+                76
+            ],
+            "requesters": [
+                79
+            ],
+            "specify": [
+                81
+            ],
+            "an": [
+                82,
+                111
+            ],
+            "appropriate": [
+                83
+            ],
+            "function": [
+                85
+            ],
+            "given": [
+                88
+            ],
+            "annotation": [
+                89,
+                96,
+                128
+            ],
+            "We": [
+                91
+            ],
+            "three": [
+                93
+            ],
+            "of": [
+                95,
+                103,
+                122
+            ],
+            "quality,": [
+                97
+            ],
+            "including": [
+                98
+            ],
+            "a": [
+                99
+            ],
+            "Bayesian": [
+                100
+            ],
+            "hierarchical": [
+                101
+            ],
+            "extension": [
+                102
+            ],
+            "multidimensional": [
+                104
+            ],
+            "scaling": [
+                105
+            ],
+            "which": [
+                106
+            ],
+            "can": [
+                107
+            ],
+            "be": [
+                108
+            ],
+            "trained": [
+                109
+            ],
+            "in": [
+                110
+            ],
+            "unsupervised": [
+                112
+            ],
+            "semi-supervised": [
+                114
+            ],
+            "manner.": [
+                115
+            ],
+            "Results": [
+                116
+            ],
+            "show": [
+                117
+            ],
+            "generality": [
+                119
+            ],
+            "effectiveness": [
+                121
+            ],
+            "our": [
+                123
+            ],
+            "across": [
+                125
+            ],
+            "diverse": [
+                126
+            ],
+            "tasks:": [
+                129
+            ],
+            "sequence": [
+                130
+            ],
+            "labeling,": [
+                131
+            ],
+            "translation,": [
+                132
+            ],
+            "syntactic": [
+                133
+            ],
+            "parsing,": [
+                134
+            ],
+            "ranking.": [
+                136
+            ]
+        }
+    }
+]
